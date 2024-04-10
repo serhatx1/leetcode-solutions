@@ -1,11 +1,14 @@
+
+
+/*
+Question
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 You can return the answer in any order.
+End of the question
 
-
-/*
 Description:
 The given JavaScript code is a solution to the problem of finding two numbers in an array that add up to a given target.
 
@@ -41,7 +44,8 @@ This algorithm has a time complexity of O(n), where n is the number of elements 
 */
 
 
-let hashT={}
+var twoSum = function(nums, target) {
+    let hashT={}
     for(let i =0;i<nums.length;i++){
         if(hashT[nums[i]]!==undefined &&nums[i]*2==target){
             return [hashT[nums[i]],i]
@@ -54,3 +58,4 @@ let hashT={}
         }
     }
     return []
+};
