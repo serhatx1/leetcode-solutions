@@ -16,7 +16,7 @@ function gcd(a, b) {
  * and returns a substring of str1 with length equal to the gcd.
  * @param {string} str1 - The first string.
  * @param {string} str2 - The second string.
- * @returns {string} - The substring of str1 with length equal to the gcd.
+ * @returns {string} - The substring of str1 with length equal to the gcd
  */
 var gcdOfStrings = function(str1, str2) {
     // If str1 + str2 is not equal to str2 + str1, there is no common divisor.
