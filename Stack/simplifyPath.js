@@ -1,7 +1,7 @@
 /**
  * Simplifies a Unix-style file path by removing unnecessary directory references.
  * @param {string} path - The input path to simplify.
- * @returns {string} - The simplified path.
+ * @returns {string} - The simplified path
  */
 var simplifyPath = function(path) {
     // Initialize an empty stack to keep track of directory names
