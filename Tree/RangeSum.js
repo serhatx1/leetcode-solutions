@@ -20,7 +20,7 @@ var rangeSumBST = function(root, low, high) {
         // Get the value of the current node
         const k = node.val;
         
-        // If the node value is within the specified range, add it to the total
+        // If the node value is within the specified range, add it to the total.
         if (k >= low && k <= high) {
             total += k;
         }
