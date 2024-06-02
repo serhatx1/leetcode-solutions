@@ -15,7 +15,7 @@ var mergeTwoLists = function (list1, list2) {
     const dummy = new ListNode(0); // Create a dummy node to serve as the head of the merged list
     let curr = dummy; // Pointer to traverse the merged list
 
-    // Iterate until either 'list1' or 'list2' becomes null
+    // Iterate until either 'list1' or 'list2' becomes null.
     while (list1 && list2) {
         // Choose the smaller value between the heads of 'list1' and 'list2'
         if (list1.val < list2.val) {
