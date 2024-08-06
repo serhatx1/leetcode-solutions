@@ -5,7 +5,7 @@
  * @returns {string} - The merged string.
  */
 var mergeAlternately = function(word1, word2) {
-    // Initialize an empty string to store the merged result
+    // Initialize an empty string to store the merged results
     let str = "";
 
     // Loop while both word1 and word2 are not empty
