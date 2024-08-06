@@ -5,7 +5,7 @@
  * @returns {boolean[]} - An array indicating whether each kid can have the greatest number of candies.
  */
 var kidsWithCandies = function(candies, extraCandies) {
-    // Find the maximum number of candies among all kids.
+    // Find the maximum number of candies among all the kids.
     let max = Math.max(...candies);
     
     // Create an empty array to store the result.
