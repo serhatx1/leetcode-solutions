@@ -7,7 +7,7 @@ var MyStack = function() {
 
 // Pushes an element onto the stack
 MyStack.prototype.push = function(x) {
-    // Push the element onto the first array
+    // Push the elements onto the first array
     this.arr.push(x);
 };
 
